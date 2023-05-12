@@ -10,11 +10,24 @@ body * {
 
 header {
    background-color: aquamarine;
+   display: flex;
+   justify-content: space-between;
+}
 
+/* .css-menu {
+   display: flex;
+   justify-content: space-between;
+} */
+
+.logo {
+   display:flex;
+   align-items: center;
 }
 
 .taille-logo {
    width: 200px;
+   display: flex;
+   align-items: center;
 }
 
 /* Couleurs */
@@ -29,5 +42,8 @@ footer {
    display: flex;
    justify-content: center;
    background-color: chartreuse;
-}
+   
+}  
+
+
 
