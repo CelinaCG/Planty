@@ -9,7 +9,7 @@
 <?php wp_body_open(); ?>
 <div id="wrapper" class="hfeed">
 <header id="header" role="banner">
-<div id="branding">
+<div id="branding"  class="logo">
 <div id="site-title" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
 <?php
 
@@ -20,8 +20,13 @@ echo ' <a href="'. home_url() .'" ><img class="taille-logo" src="'  . esc_url( $
 ?>
 </div>
 </div>
+
 <nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
-<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+
+<?php wp_nav_menu( array( 
+    'theme_location' => 'header-menu' ) ); 
+?>
+
 
 </nav>
 </header>
